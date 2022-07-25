@@ -1,0 +1,337 @@
+<html>
+    <script>
+        
+
+//Question 1 : .............................
+        
+    //   function factorial(n){
+    //         if(n == 0 || n == 1){
+    //             return 1;
+    
+    //         }else{
+    //             return n * factorial(n-1);
+    //         }
+    //     }
+    //     let n = prompt('Enter a number to find the factorial : ');
+    //     if(isNaN(n) || n<0 || !Number.isInteger(n)){
+    //         alert("Please enter valid number (0,1,2,3........)");
+    //     } else{
+    //         answer = factorial(n);
+    //         alert("The factorial of " + n + " is " + answer);
+    //     }
+
+
+
+//QUESTION 2....................................................................
+
+        // function fibonaci(num){  
+        //     if (num == 1){  
+        //         return [0];  
+        //     } else if(num==2){
+        //         return[0, 1];
+        //     } else {  
+        //         total = fibonaci (num - 1);          
+        //         total.push( total[ total.length - 1] + total[ total.length - 2] );  
+        //         return total;  
+        //     }  
+        // }
+        // let n = parseInt(prompt('Enter number of terms : '));
+        // if(isNaN(n) || n<=0 || !Number.isInteger(n)){
+        //     alert("Please enter valid number (1,2,3........)");
+        //  } else{
+        //     document.write("Fibonacci Series of  in JavaScript: " + fibonaci( n ) + "<br>");
+        //  }  
+
+//QUESTION 3.................................................................
+
+
+        // function prime(num) {
+              
+        //     var i, flag = true;
+        //     for(i = 2; i <= num - 1; i++)
+        //         if (num % i == 0) {
+        //               flag = false;
+        //               break;
+        //         }
+        //     if (flag == true)
+        //         alert(num + " is prime");
+        //     else
+        //         alert(num + " is not prime");
+        // }
+
+        // let num=parseInt(prompt('Enter a positive number : '));
+        // if(isNaN(num) || num<=0 || !Number.isInteger(n)){
+        //     alert("Please enter valid number (2,3,4,5,6.......)");
+        // } else if(num==1){
+        //     alert('! is neither prime nor composite');
+        // } else{
+        //     prime(num);
+        // }   
+
+//QUESTION 4....................................................................
+
+        // function sum(num1, num2){
+        //     return num1 + num2;
+        // }
+        // let flag;
+        // do{
+        //     flag=0;
+        //     let num1=parseFloat(prompt('Enter first number :  '));
+        //     if(isNaN(num1)){
+        //         alert("Please enter valid number.....");
+        //         flag++;
+        //         continue;
+        //     }
+        //     let num2=parseFloat(prompt('Enter second number : '));
+        //     if(isNaN(num2)){
+        //         alert("Please enter valid number.....");
+        //         flag++;
+        //         continue;
+        //     } else{
+        //         alert(sum(num1, num2));
+        //     }
+        // }while(flag!=0);
+        
+        
+//Question 5..........................................................
+
+    //   function multiply(num1, num2){
+    //         return num1 * num2;
+    //     }
+    //     let num1=parseFloat(prompt('Enter first number :  '));
+    //     let num2=parseFloat(prompt('Enter second number : '));
+        
+        // if(isNaN(num1) || isNaN(num2)){
+        //     alert("Please enter valid number (2,3,4,5,6.......)");
+        // } else{
+        //     alert("The result is : "+multiply(num1, num2));
+        // }
+        
+
+
+//QUESTION 6...........................................................
+        
+        // function large(array){
+        //     var largest= 0;
+        //     let len =  array.length;
+        //     for (i=0; i<=len-1; i++){
+        //         if (array[i]>largest) {
+        //             var largest=array[i];
+        //         }
+        //     }
+        //     return largest;
+        // }   
+        // let array = [3 , 6, 2, 56, 'hjhy', 5, 89, 32, 'jhjhj'];
+         
+        // alert(large(array));
+
+
+//QUESTION 7.................................................
+
+/*      function minimum(array){
+            var smallest= array[0];
+            let len=array.length;
+            for (i=0; i<=len-1; i++){
+                if (array[i]<smallest) {
+                    var smallest=array[i];
+                }
+            }
+            return smallest;
+        }   
+        let array = [3 , 6, 2, 56, 32, 5, 89, 32]; 
+        alert(minimum(array));
+*/     
+
+//QUESTION 8.............................................................
+
+        // function searching(array, n){
+        //     let result = 0;
+        //     for(let i = 0; i < array.length-1; i++){
+        //         if(array[i] == n){
+        //             result++;
+        //             return true;
+        //         }
+        //     }
+        //     if(result==0){
+        //         return false;
+        //     }
+        // }
+        // let array = [3 , 6, 2, 56, 32, 5, 89, 32];
+        // let n = prompt('Enter the number : ');
+
+        // if(isNaN(n)){
+        //     alert("Please enter valid number ");
+        // } else{
+        //     alert(searching(array, n));
+        // }
+        
+
+
+//QUESTION 9...............................................................
+
+    //   function rev_str_array(StrArray){
+    //     let revArr = [];
+    //     let strLen = StrArray.length;
+    //     for(let i = strLen - 1; i >= 0; i--){
+    //         revArr += StrArray[i];
+    //     }
+    //     return revArr;
+    //     }
+    //     let StrArray = ['abc','b','c','d'];
+    //     document.write(rev_str_array(StrArray));
+    //     console.log(StrArray[1]);
+
+
+// QUESTION 10....................................................................
+
+    //  function strLength(str){
+    //         let str_len = 0;
+    //         for(let i = 0; str[i] !== undefined; i++){
+    //             str_len++;
+    //         }
+    //         return str_len;
+    //     }
+    //     let str = prompt('Enter the string : ');
+    //     alert(strLength(str));
+
+
+// QUESTION 11...........................................................
+
+        // function arrLength(arr){
+        //     let i, j = 0;
+        //     for(i of arr){
+        //         j++
+        //     }
+        //     return j;
+        // }
+        // let arr = [3 , 6, 2, 56, 32, 5, 89, 32];
+        // alert(arrLength(arr));
+
+
+//Question 12.......................................................
+
+    //    function areaTriangle(side1, side2, side3){
+    //         let s = (side1 + side2 + side3) / 2;
+    //         let area;
+    //         area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+    //         return area;
+    //     }
+        
+    //     let side1, side2, side3;
+    //     side1 = parseFloat(prompt('Enter first side of the triangle : '));
+    //     side2 = parseFloat(prompt('Enter second side of the triangle : '));
+    //     side3 = parseFloat(prompt('Enter third side of the triangle : '));
+
+    //     if(isNaN(side1) || isNaN(side2) || isNaN(side3) 
+    //     || side1 <= 0 || side2 <= 0 || side3 <= 0){
+    //         alert("Please enter valid input (ony positive numbers are allowed)......");
+    //     } else{
+    //         if(side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2){
+    //             alert('Triangle with the entered length is not possible : ');
+    //         }else{
+    //             alert('Area of triangle = '+areaTriangle(side1, side2, side3));
+    //         }
+    //     }
+
+// Question 13..................................................................
+
+        // function prime_numbers(n){
+            
+        //     if(n != 1 && n>0){
+        //         for(let i = 2; i <= n; i++){
+        //             let flag = 0;
+        //             for(let j = 2; j<i; j++){
+        //                 if(i % j == 0){
+        //                     flag = 1;
+        //                     break;
+        //                 }
+        //             }
+        //             if(flag == 0){
+        //                 document.write(i+"  ");
+        //             }
+
+        //         }
+        //     }else{
+        //         alert('1 is neither composit nor prime... ');
+        //     }
+
+        // }
+
+        // let n = prompt('Enter the end number : ');
+        // if(isNaN(n) || n<=0){
+        //     alert("Please enter valid number ");
+        // } else{
+        //     prime_numbers(n);
+        // }
+        
+
+
+// Question 15
+        
+        // function sortArray(arr){
+        //     for (let i = 0; i < arr.length; i++) {
+        //         for (let j = i + 1; j < arr.length; j++) {
+        //             if (arr[i] > arr[j]) {
+        //                 temp = arr[i];
+        //                 arr[i] = arr[j];
+        //                 arr[j] = temp;
+        //             }
+        //         }
+        //     }
+        //     return arr;
+        // }
+        // let arr = [4, 32, 2, 5, 8];
+        // console.log("Sorted array=>", sortArray(arr));
+
+
+//Question 14.........................................................
+
+    function Square(n, i, j)
+    {
+        var mid = ((i + j) / 2);
+        var mul = mid * mid;
+    
+        if ((mul == n) || (Math.abs(mul - n) < 0.00001))
+            return mid;
+    
+        else if (mul < n)
+            return Square(n, mid, j);
+
+        else
+            return Square(n, i, mid);
+    }
+    
+    function findSqrt(n)
+    {
+        var i = 1;
+        var found = false;
+        while (!found)
+        {
+            
+            if (i * i == n)
+            {
+                alert(i);
+                found = true;
+            }
+    
+            else if (i * i > n)
+            {
+                var res = Square(n, i - 1, i);
+                alert(res.toFixed(5));
+                found = true;
+            }
+            i++;
+        }
+    }
+    
+    var n = prompt('enter the number : ');
+
+    if(isNaN(n) || n<0){
+            alert("Please enter valid number ");
+        } else{
+            findSqrt(n);
+        }
+    
+
+    </script>
+</html>
